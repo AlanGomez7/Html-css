@@ -13,7 +13,6 @@ nav {
     justify-content: center;
     padding: 10px;
     background-color: #0fb992da;
-    width: 100%;
     box-shadow: 10px, black;
 }
 
@@ -25,6 +24,7 @@ nav {
 }
 
 .menu_links{
+    display: flex;
     color: white;
     display: inline-block;
 }
@@ -32,6 +32,7 @@ nav {
 a {
     text-decoration: none;
     position: relative;
+    text-align: center;
     color: white;
 }
 
@@ -42,7 +43,7 @@ a::before{
     left: 0;
     bottom: 0;
     height:2px;
-    width: 100px;
+    width: 100%;
     background-color: white;
     transform: scaleX(0);
     transition: transform 0.3s ease;
