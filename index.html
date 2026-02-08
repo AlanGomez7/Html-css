@@ -16,22 +16,21 @@
 
   <body>
     <nav>
-      <!-- <h1>Alan gomez</h1> -->
       <ul class="menu_items">
-        <li class="menu_links"><a href="#">Home</a></li>
-        <li class="menu_links"><a href="#">About me</a></li>
-        <li class="menu_links"><a href="#">Projects</a></li>
-        <li class="menu_links"><a href="#">Reach out</a></li>
+        <li class="menu_links"><a href="#home">Home</a></li>
+        <li class="menu_links"><a href="#about">About me</a></li>
+        <li class="menu_links"><a href="#projects">Projects</a></li>
+        <li class="menu_links"><a href="#contact">Reach out</a></li>
       </ul>
     </nav>
-    <section class="container">
+    <section class="container" id="home">
       <div class="">
-        <h1 class="name">Alan Gomez</h1>
+        <h1 class="name pop">Alan Gomez</h1>
         <span class="role_box">
-          <p class="role">Software engineering</p>
-          <p class="role verb_noun">Verb & Noun</p>
+          <p class="role pop">Software engineering</p>
+          <p class="role pop verb_noun">Verb & Noun</p>
         </span>
-        <p class="role">
+        <p class="role pop">
           where problem-solving meets craftsmanship—turning ideas into
           dependable digital products.
         </p>
@@ -39,63 +38,56 @@
     </section>
     <!-- recent projects -->
     <section>
-      <p class="sub_heading">Currently cooking ☺︎</p>
+      <p class="sub_heading pop">Currently cooking ☺︎</p>
 
       <p class="current">
         Learning, shipping, and growing as a Software Engineer Intern — working
         on real-world features, writing production code, and understanding
         systems that scale.
       </p>
-      <p>More soon.</p>
+      <p>More soon✨</p>
     </section>
     <!-- projects -->
-    <section>
-      <p class="sub_heading">Projects *</p>
-
+    <section id="projects">
+      <p class="sub_heading pop">Projects *</p>
       <div id="projects_container">
+        <a href="https://windermerelodges.co.uk" id="project_link"
+          ><div class="project_card">
+            <div class="thumbnail"></div>
+            <div>
+              <p class="project_heading">Windermere lodges</p>
+              <p>Lodge booking application.</p>
+            </div>
+          </div></a
+        >
         <div class="project_card">
           <div class="thumbnail"></div>
           <div>
             <p class="project_heading">Windermere lodges</p>
-            <p>
-              Lorem ipsum dolor sit amet.
-            </p>
+            <p>Lorem ipsum dolor sit amet.</p>
           </div>
         </div>
         <div class="project_card">
           <div class="thumbnail"></div>
           <div>
             <p class="project_heading">Windermere lodges</p>
-            <p>
-              Lorem ipsum dolor sit amet.
-            </p>
+            <p>Lorem ipsum dolor sit amet.</p>
           </div>
         </div>
         <div class="project_card">
           <div class="thumbnail"></div>
           <div>
             <p class="project_heading">Windermere lodges</p>
-            <p>
-              Lorem ipsum dolor sit amet.
-            </p>
-          </div>
-        </div>
-        <div class="project_card">
-          <div class="thumbnail"></div>
-          <div>
-            <p class="project_heading">Windermere lodges</p>
-            <p>
-              Lorem ipsum dolor sit amet.
-            </p>
+            <p>Lorem ipsum dolor sit amet.</p>
           </div>
         </div>
       </div>
     </section>
 
     <!-- About me -->
-    <section class="about_section">
+    <section class="about_section" id="about">
       <div class="">
-        <p class="sub_heading">About me</p>
+        <p class="sub_heading pop">About me ⌘</p>
       </div>
       <div>
         <p class="about_content">
@@ -116,32 +108,33 @@
       </div>
     </section>
     <!-- Contact me -->
-    <section class="contact_container">
-      <div class="contact_us">
-        <p class="sub_heading">Contact us</p>
-      </div>
-      <div class="contact_form">
-        <form>
-          <div class="contact_name">
-            <div>
-              <label for="firstname">first name</label>
-              <input type="text" id="firstname" />
+    <section id="contact">
+      <p class="sub_heading pop">Contact with me</p>
+      <div class="contact_container">
+        <div class="contact_us"></div>
+        <div class="contact_form">
+          <form>
+            <div class="contact_name">
+              <div>
+                <label for="firstname">first name</label>
+                <input type="text" id="firstname" />
+              </div>
+              <div>
+                <label for="secondname">Second name</label>
+                <input type="text" id="secondname" />
+              </div>
             </div>
-            <div>
-              <label for="secondname">Second name</label>
-              <input type="text" id="secondname" />
+            <div class="email">
+              <label for="email">email</label>
+              <input type="text" id="email" />
             </div>
-          </div>
-          <div class="email">
-            <label for="email">email</label>
-            <input type="text" id="email" />
-          </div>
-          <div class="Message">
-            <label for="message">Message</label>
-            <textarea type="text" id="message"></textarea>
-          </div>
-          <button>Submit request</button>
-        </form>
+            <div class="Message">
+              <label for="message">Message</label>
+              <textarea type="text" id="message"></textarea>
+            </div>
+            <button>Submit request</button>
+          </form>
+        </div>
       </div>
     </section>
     <footer>All rights reserved | Alan gomez 2026</footer>
