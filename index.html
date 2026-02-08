@@ -1,31 +1,149 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Alan Gomez</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
-</head>
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+  </head>
 
-<body>
+  <body>
     <nav>
-        <!-- <h1>Alan gomez</h1> -->
-        <ul class="menu_items">
-            <li class="menu_links"><a href="#">Home</a></li>
-            <li class="menu_links"><a href="#">Projects</a></li>
-            <li class="menu_links"><a href="#">Contact me</a></li>
-        </ul>
+      <!-- <h1>Alan gomez</h1> -->
+      <ul class="menu_items">
+        <li class="menu_links"><a href="#">Home</a></li>
+        <li class="menu_links"><a href="#">About me</a></li>
+        <li class="menu_links"><a href="#">Projects</a></li>
+        <li class="menu_links"><a href="#">Reach out</a></li>
+      </ul>
     </nav>
-    <section>
-
+    <section class="container">
+      <div class="">
+        <h1 class="name">Alan Gomez</h1>
+        <span class="role_box">
+          <p class="role">Software engineering</p>
+          <p class="role verb_noun">Verb & Noun</p>
+        </span>
+        <p class="role">
+          where problem-solving meets craftsmanship—turning ideas into
+          dependable digital products.
+        </p>
+      </div>
     </section>
-</body>
+    <!-- recent projects -->
+    <section>
+      <p class="sub_heading">Currently cooking ☺︎</p>
 
+      <p class="current">
+        Learning, shipping, and growing as a Software Engineer Intern — working
+        on real-world features, writing production code, and understanding
+        systems that scale.
+      </p>
+      <p>More soon.</p>
+    </section>
+    <!-- projects -->
+    <section>
+      <p class="sub_heading">Projects *</p>
+
+      <div id="projects_container">
+        <div class="project_card">
+          <div class="thumbnail"></div>
+          <div>
+            <p class="project_heading">Windermere lodges</p>
+            <p>
+              Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+        <div class="project_card">
+          <div class="thumbnail"></div>
+          <div>
+            <p class="project_heading">Windermere lodges</p>
+            <p>
+              Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+        <div class="project_card">
+          <div class="thumbnail"></div>
+          <div>
+            <p class="project_heading">Windermere lodges</p>
+            <p>
+              Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+        <div class="project_card">
+          <div class="thumbnail"></div>
+          <div>
+            <p class="project_heading">Windermere lodges</p>
+            <p>
+              Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About me -->
+    <section class="about_section">
+      <div class="">
+        <p class="sub_heading">About me</p>
+      </div>
+      <div>
+        <p class="about_content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, .
+        </p>
+        <p class="about_content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ul.
+        </p>
+        <p class="about_content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco .
+        </p>
+      </div>
+    </section>
+    <!-- Contact me -->
+    <section class="contact_container">
+      <div class="contact_us">
+        <p class="sub_heading">Contact us</p>
+      </div>
+      <div class="contact_form">
+        <form>
+          <div class="contact_name">
+            <div>
+              <label for="firstname">first name</label>
+              <input type="text" id="firstname" />
+            </div>
+            <div>
+              <label for="secondname">Second name</label>
+              <input type="text" id="secondname" />
+            </div>
+          </div>
+          <div class="email">
+            <label for="email">email</label>
+            <input type="text" id="email" />
+          </div>
+          <div class="Message">
+            <label for="message">Message</label>
+            <textarea type="text" id="message"></textarea>
+          </div>
+          <button>Submit request</button>
+        </form>
+      </div>
+    </section>
+    <footer>All rights reserved | Alan gomez 2026</footer>
+  </body>
 </html>
